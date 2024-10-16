@@ -80,9 +80,9 @@ class Extractor:
     def _get_links_from_pages(self, url: str) -> list[str] | None:
         self.log.info("Сбор ссылок со страницы", url=url)
 
-        time.sleep(1)
+        time.sleep(2)
         response = self._http_extractor.make_request(
-            url=self.url,
+            url=url,
         )
         if response is None:
             return None
