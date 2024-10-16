@@ -1,0 +1,29 @@
+[
+    {
+        "create_date": "2024-10-16T17:25:30Z",
+        "link": "https://online.metro-cc.ru/products/rioba-v-zernah-naturalnyj-zharenyj-gold-1kg",
+        "id": "\n            Артикул: 287769\n          ",
+        "name": "\n      RIOBA Кофе в зернах натуральный жареный 80:20, 1кг\n       ",
+        "regular_price": "1 639",
+        "promotional_price": "1 499",
+        "brand": "\n        RIOBA\n      "
+    },
+    {
+        "create_date": "2024-10-16T17:25:33Z",
+        "link": "https://online.metro-cc.ru/products/kofe-monarch-original-rastvorimyy-210g",
+        "id": "\n            Артикул: 230302\n          ",
+        "name": "\n      Кофе Monarch Original растворимый, 210г\n       ",
+        "regular_price": "619",
+        "promotional_price": "599",
+        "brand": "\n        MONARCH\n      "
+    },
+    {
+        "create_date": "2024-10-16T17:25:36Z",
+        "link": "https://online.metro-cc.ru/products/kofe-bushido-sensei-zernovoy-1kg",
+        "id": "\n            Артикул: 246502\n          ",
+        "name": "\n      Кофе Bushido Sensei зерновой, 1кг\n       ",
+        "regular_price": "2 699",
+        "promotional_price": "1 899",
+        "brand": "\n        BUSHIDO\n      "
+    }
+]

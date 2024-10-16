@@ -60,7 +60,7 @@ log = Logger(__name__)
 
 if __name__ == "__main__":
     log = Logger("test")
-    log.debug("test debug %s", "xyi")
+    log.debug("test debug %s", "test")
     log.info(
         "test info %s",
         "xsasda",
