@@ -6,18 +6,6 @@ from typing import Any, Protocol
 
 
 class FileStage(Enum):
-    """
-    Enum for determining the file stage.
-
-    Attributes:
-        STAGE: Intermediate stage of file processing.
-            For example, the process of getting links to objects without detailed processing.
-        FINAL: Final stage of file processing.
-            For example, the process of detailed processing of all objects obtained from the STAGE stage.
-        UNPROCESSED: Unprocessed file.
-            For example, data was not processed fully due to resource blocking (hh, avito) or another error.
-    """
-
     STAGE = "stage"
     FINAL = "final"
     UNPROCESSED = "unprocessed"

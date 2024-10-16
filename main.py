@@ -1,6 +1,7 @@
 from pathlib import Path
-from extractor import HttpDriver
-from metro import Extractor
+from extractors.extractor import HttpDriver
+from extractors.metro import Extractor
+from data_handlers.metro import Handler
 from savers import LocalDataSaver
 
 if __name__ == "__main__":
@@ -9,5 +10,8 @@ if __name__ == "__main__":
         "metro",
     )
     ex = Extractor(HttpDriver({}), saver)
-    # ex.get_list_products()
+    ex.get_list_products()
     ex.extract_data_from_list()
+
+    h = Handler(saver)
+    h.clear_data()

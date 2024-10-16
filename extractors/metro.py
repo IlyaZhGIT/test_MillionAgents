@@ -3,8 +3,8 @@ import time
 from lxml import etree
 from io import StringIO
 
-from extractor import HttpDriver
-from logger.logger import log
+from .extractor import HttpDriver
+from logger import log
 from savers import DataSaver, FileStage
 
 
